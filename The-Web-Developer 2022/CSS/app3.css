@@ -10,6 +10,10 @@ form {
     color: greenyellow;
 }
 
+
+/* form 을 주석처리해버리면, 그 상위속성인 section을 상속받게 된다. */
+/* button이나 input 같은 태그들은 예외적으로 상속이 자동 적용되지 않으므로 
+inherit을 통해 그 상위값에서 상속받도록 할 수 있다.*/
 button,
 input {
     color: inherit;
