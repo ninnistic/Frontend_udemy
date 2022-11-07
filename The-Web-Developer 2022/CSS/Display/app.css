@@ -1,0 +1,26 @@
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+    /* margin은 위아래는 무시한채, 좌우로만 50px씩 늘린다. 인라인속성이기 때문에*/
+}
+
+h1 {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 100px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+}
