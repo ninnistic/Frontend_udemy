@@ -1,0 +1,49 @@
+section {
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+h2 {
+    font-size: 2em;
+    /* 40px */
+    /* 부모요소는 article임 */
+    margin-left: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+article {
+    font-size: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    /* padding은 부모요소에 의존하는게 아니라
+    요소 내부의 font-size에 의존한다.*/
+    border-radius: 0.5em;
+    /*radius를 px로 설정하면 font-size가 커지면서
+    모양이 이상해진다...모깎기가 둔해짐...그래서 em으로 맞추면
+    배수에 따르므로 유지가 가능함. */
+    background-color: green;
+    color: white;
+}
