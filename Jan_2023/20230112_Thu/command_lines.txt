@@ -1,0 +1,15 @@
+1. ls : 목록확인 
+
+2. clear : 내용(화면)지우기 
+
+3. mkdir : make directory = 폴더 생성 
+|   mkdir 폴더명
+
+4. cd : change directory = 디렉토리 이동(폴더 열기)
+|   cd 위치(폴더명)
+|   cd .. : 상위 폴더로 이동 (space bar 유의)
+
+
+5. pwd : print working directory = 현재위치
+
+
