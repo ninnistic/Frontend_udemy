@@ -1,3 +1,8 @@
+html {
+    font-size: 30px
+}
+
+/* html = root font size -> rem에는 영향 미침 */
 section {
     background-color: #6d6875;
     width: 800px;
@@ -16,22 +21,22 @@ h1 {
     line-height: 200%;
 }
 
-h2 {
+#ems h2 {
     font-size: 2em;
     /* 40px */
     /* 부모요소는 article임 */
     margin-left: 1em;
 }
 
-h3 {
+#ems h3 {
     font-size: 1.5em;
 }
 
-p {
+#ems p {
     font-size: 1em;
 }
 
-article {
+#ems {
     font-size: 20px;
 }
 
@@ -46,4 +51,21 @@ button {
     배수에 따르므로 유지가 가능함. */
     background-color: green;
     color: white;
+}
+
+#ems ul {
+    font-size: 1.5em;
+    /* article의 원래 글꼴에서 50퍼 더 커짐 */
+}
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
 }
