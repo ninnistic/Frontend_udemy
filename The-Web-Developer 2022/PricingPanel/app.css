@@ -75,6 +75,7 @@ body {
     width: 100%;
     max-width: 960px;
     display: flex;
+    /* 모바일 우선으로 column으로 만들어주고 breakpoints 부터는 row로 보이개해줌 */
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
@@ -141,13 +142,30 @@ body {
     background-color: #e1f1ff;
 }
 
+/* .is-featured */
 .pricing-button.is-featured {
     background-color: #48aaff;
     color: white;
 }
 
 
-.pricing-button.is-featured:hover, .pricing-button.is-feautred:focus {
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
     background-color: #269aff;
     color: white;
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan:last-child {
+        border-right: none;
+    }
 }
